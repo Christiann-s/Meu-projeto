@@ -1,5 +1,5 @@
 import database from '@react-native-firebase/database';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, StyleSheet, Text, TextInput, View } from 'react-native';
 
 const SolicitarColeta = () => {
@@ -61,4 +61,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default SolicitarColeta;
+export default App;
