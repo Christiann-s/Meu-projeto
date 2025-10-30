@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# 🌱 Eco-Coleta
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Introdução
 
-## Get started
+O Eco-Coleta é um aplicativo mobile desenvolvido com foco na gestão sustentável de resíduos sólidos urbanos. Ele permite que usuários solicitem coleta de materiais recicláveis de forma rápida e acessível.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🎯 Objetivo
 
-2. Start the app
+Facilitar o processo de solicitação de coleta, promovendo inclusão social e conscientização ambiental.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Tecnologias Utilizadas
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- React Native
+- Firebase Realtime Database
+- @react-native-firebase/database
+- Notepad++ (edição de código)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📱 Funcionalidades
 
-When you're ready, run:
+- Tela de solicitação com campos de entrada
+- Envio de dados para o Firebase
+- Interface simples e funcional
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📄 Arquivos do Projeto
 
-## Learn more
+- `App.js` → Código do aplicativo
+- `Metodologia.docx` → Parte teórica do trabalho
+- `Referências.txt` → Fontes utilizadas
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 👨‍🏫 Informações Acadêmicas
 
-## Join the community
+Trabalho em grupo desenvolvido por:
 
-Join our community of developers creating universal apps.
+- Erlen Christian Siqueira  
+- Julie Seibert  
+- Deise Seibert
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Professor: Breno Zanchetta 
