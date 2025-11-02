@@ -1,0 +1,117 @@
+:root {
+  --azul: #007BFF;
+  --verde: #28A745;
+  --laranja: #FFA500;
+  --amarelo: #FFD700;
+  --fundo: #f5f5f5;
+  --texto: #333;
+  --branco: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, var(--azul), #00C6FF);
+  color: var(--texto);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--azul);
+  color: var(--branco);
+  padding: 15px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+#menuBtn {
+  background-color: var(--laranja);
+  color: var(--branco);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#menuBtn:hover {
+  background-color: var(--amarelo);
+  color: var(--texto);
+}
+
+.login-container {
+  background-color: var(--branco);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--azul);
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+#loginBtn, #cadastroBtn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+#loginBtn {
+  background-color: var(--verde);
+  color: var(--branco);
+}
+
+#loginBtn:hover {
+  background-color: var(--laranja);
+}
+
+#cadastroBtn {
+  background-color: var(--amarelo);
+  color: var(--texto);
+}
+
+#cadastroBtn:hover {
+  background-color: var(--laranja);
+  color: var(--branco);
+}
+
+@media (max-width: 500px) {
+  .login-container {
+    padding: 20px;
+    width: 90%;
+  }
+
+  input, button {
+    font-size: 14px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+}
