@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "eco-coleta-app",
+    "slug": "eco-coleta-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "ecocoletaapp",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      "expo-router"
+    ],
+    "android": {
+      "package": "com.seu.ecocoletaapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.seu.ecocoletaapp"
+    }
+  }
+}
